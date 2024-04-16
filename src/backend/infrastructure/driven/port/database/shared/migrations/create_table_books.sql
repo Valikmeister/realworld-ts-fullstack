@@ -1,0 +1,8 @@
+CREATE TABLE books (
+
+    BookId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    Title varchar(255) NOT NULL,
+    Pages INT NOT NULL,
+    AuthorId FOREIGN KEY 
+
+)
